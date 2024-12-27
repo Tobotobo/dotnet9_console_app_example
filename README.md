@@ -6,7 +6,7 @@
 GitHub Actions を使って Windows の実行ファイル作成するサンプルです。
 
 なお、Gitea Actions でも同様に動作します。  
-※ワークフローの手動実行(workflow_dispatc)に Gitea v1.23.0-rc0 以上が必要
+※ワークフローの手動実行(workflow_dispatch)に Gitea v1.23.0-rc0 以上が必要
 
 ## イメージ
 ワークフローを実行すると `dotnet9_console_app_example.exe` が入った `publish.zip` をダウンロードできる。  
